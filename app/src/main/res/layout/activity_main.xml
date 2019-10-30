@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.rikkatheworld.rikkaviewpagerdemo.RikkaViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <View
+            android:id="@+id/iv_red"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#ff0000"/>
+        <View
+            android:id="@+id/iv_green"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#00ff00"/>
+        <View
+            android:id="@+id/iv_blue"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#0000ff"/>
+    </com.rikkatheworld.rikkaviewpagerdemo.RikkaViewPager>
+
+</RelativeLayout>
