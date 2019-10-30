@@ -181,7 +181,7 @@ public class RikkaViewPager extends ViewGroup {
     }
 
     /**
-     * 这里要自己写一个ViewGroup的LayoutParams来记录 scale、alpha、from、to
+     * 这里要自己写一个ViewGroup的LayoutParams来记录 scale、alpha、from、to 
      */
     class RikkaLayoutParams extends MarginLayoutParams {
         float scale = 0f;
